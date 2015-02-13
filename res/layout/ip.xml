@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+ >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".25" android:hint="@string/version" android:id="@+id/version" android:inputType="numberDecimal">
+	            <requestFocus></requestFocus>
+	            
+	        </EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".25" android:id="@+id/headerLength" android:hint="@string/headerLength" android:inputType="numberDecimal"></EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".25" android:id="@+id/diffServ" android:hint="@string/diffServ" android:inputType="numberDecimal"></EditText>
+		    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".25" android:id="@+id/totalLength" android:hint="@string/totalLength" android:inputType="numberDecimal"></EditText>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:orientation="horizontal">
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".33" android:id="@+id/id" android:hint="@string/id" android:inputType="numberDecimal"></EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".33" android:id="@+id/flags" android:hint="@string/flags" android:inputType="numberDecimal"></EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".33" android:id="@+id/fragmentOffset" android:hint="@string/fragmentOffset" android:inputType="numberDecimal"></EditText>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="match_parent" android:orientation="horizontal">
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".50" android:id="@+id/ttl" android:hint="@string/ttl" android:inputType="numberDecimal"></EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight=".50" android:id="@+id/protocol" android:hint="@string/protocol" android:inputType="numberDecimal"></EditText>
+	    </LinearLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="match_parent" android:orientation="vertical">
+	        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/sourceIP" android:hint="@string/sourceIP" android:inputType="text"></EditText>
+	        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/destIP" android:hint="@string/DestIP" android:inputType="text"></EditText>
+	    </LinearLayout>
+	    <Button android:text="@string/calculate" android:id="@+id/calculate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="calculateIp"></Button>
+	    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/hlc" android:visibility="invisible" android:inputType="text"></EditText>
+	</LinearLayout>
+</ScrollView>

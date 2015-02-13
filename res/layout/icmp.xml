@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:orientation="horizontal">
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_weight=".50"
+				android:hint="@string/type" android:id="@+id/type" android:inputType="numberDecimal">
+				<requestFocus></requestFocus>
+
+			</EditText>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_weight=".50"
+				android:id="@+id/code" android:hint="@string/code" android:inputType="numberDecimal"></EditText>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:orientation="horizontal">
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_weight=".50"
+				android:id="@+id/rest" android:hint="@string/rest"  android:inputType="numberDecimal"></EditText>
+		</LinearLayout>
+		<Button android:text="@string/calculate" android:id="@+id/calculate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:onClick="calculateIcmp"></Button>
+	</LinearLayout>
+</ScrollView>

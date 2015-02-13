@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CalculadoraChecksumActivity!</string>
+    <string name="app_name">Calculadora Checksum IP e ICMP</string>
+    <string name="version">Version</string>
+    <string name="headerLength">Header Length</string>
+    <string name="diffServ">DiffServ</string>
+    <string name="totalLength">Total Length</string>
+    <string name="id">ID</string>
+    <string name="flags">Flags</string>
+    <string name="fragmentOffset">Fragment Offset</string>
+    <string name="ttl">TTL</string>
+    <string name="protocol">Protocol</string>
+    <string name="sourceIP">Source IP Address</string>
+    <string name="DestIP">Destination IP Address</string>
+    <string name="calculate">Calcular</string>
+    <string name="help_general_text">Esta aplicación calcula las sumas de comprobación de los protocolos IP e ICMP.  Para calcular la suma de comprobación del protocolo IP presione el boton &quot;IP&quot;, si desea calcular la suma de comprobación del protocolo ICMP presione el boton &quot;ICMP&quot;.</string>
+    <string name="help">Ayuda</string>
+    <string name="help_ip_text"></string>
+    <string name="help_icmp_text"></string>
+    <string name="help_general">General</string>
+    <string name="type">Type</string>
+    <string name="code">Code</string>
+    <string name="rest">Rest</string>
+    <string name="ip">IP</string>
+    <string name="icmp">ICMP</string>
+    <string name="help_ip_url">http://en.wikipedia.org/wiki/IPv4#Header</string>
+    <string name="help_icmp_url">http://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Header</string>
+    <string name="help_general_url">http://en.wikipedia.org/wiki/Internet_protocol_suite</string>    
+</resources>

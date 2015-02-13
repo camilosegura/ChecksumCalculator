@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:src="@drawable/web_hi_res_512"/>
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/calculate"/>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ip" >
+        </Button>
+
+        <Button
+            android:id="@+id/icmp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/icmp" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

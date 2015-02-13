@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/help">
+        <menu>
+            <item 
+                android:id="@+id/help_general"
+                android:title="@string/help_general"/>
+            <item
+                android:id="@+id/help_ip"
+                android:title="@string/ip"/>
+            <item
+                android:id="@+id/help_icmp"
+                android:title="@string/icmp"/>
+        </menu>
+    </item>
+
+</menu>

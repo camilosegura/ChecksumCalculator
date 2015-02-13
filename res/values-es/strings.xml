@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CalculadoraChecksumActivity!</string>
+    <string name="app_name">Calculadora Checksum IP e ICMP</string>
+    <string name="version">Versión</string>
+    <string name="headerLength">Header Length</string>
+    <string name="diffServ">Differentiated Services</string>
+    <string name="totalLength">Total Length</string>
+    <string name="id">ID</string>
+    <string name="flags">Flags</string>
+    <string name="fragmentOffset">Fragment Offset</string>
+    <string name="ttl">TTL</string>
+    <string name="protocol">Protocol</string>
+    <string name="sourceIP">Source IP Address</string>
+    <string name="DestIP">Destination IP Address</string>
+    <string name="calculate">Calcular</string>
+    <string name="help">Esta aplicación calcula las sumas de comprobación de los protocolos IP e ICMP.  Para calcular la suma de comprobación del protocolo IP presione el boton &quot;IP&quot;, si desea calcular la suma de comprobación del protocolo ICMP presione el boton &quot;ICMP&quot;.</string>
+    <string name="help_ip_text">Estos son los campos de la cabecera, pruebe con \n Version:4\n Header Length:20\n Differentiated Services:0\n Total Length:60\n Identification:1964\n Flags:0\n Fragment Offset:0\n Time to live:128\n Protocol:1\n Source:192.168.137.1\n Destination:192.168.137.126\nMas información presione el botón Ir</string>
+    <string name="help_icmp_text">Estos son los campos de la cabecera, pruebe con \n Type:8\n Code:0\n Rest:1379305829\nMas información presione el botón Ir</string>
+    <string name="type">Type</string>
+    <string name="code">Code</string>
+    <string name="rest">Rest</string>
+    <string name="close">Cerrar</string>
+    <string name="go">Ir</string>
+</resources>
